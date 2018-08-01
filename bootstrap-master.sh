@@ -66,5 +66,5 @@ else
 
     # Centos
     # echo "*.example.com" >> /opt/puppetlabs/autosign.conf
-    echo "*.example.com" | sudo tee -a /etc/puppetlabs/puppet/autosign.conf
+    echo "*" | sudo tee -a /etc/puppetlabs/puppet/autosign.conf
 fi
