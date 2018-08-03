@@ -1,9 +1,5 @@
 # vi: set ft=ruby :
 
-# Builds Puppet Master and multiple Puppet Agent Nodes using JSON config file
-# Author: Gary A. Stafford
-
-# read vm and chef configurations from JSON files
 nodes_config = (JSON.parse(File.read("nodes.json")))['nodes']
 
 VAGRANTFILE_API_VERSION = "2"
